@@ -1,0 +1,15 @@
+# Olist raw dataset
+data/raw/*.csv
+
+# SQLite database
+*.db
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Power BI temporary files
+*.pbit
