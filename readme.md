@@ -1,8 +1,8 @@
-\# E-Commerce Marketplace Analytics
+# E-Commerce Marketplace Analytics
 
 
 
-\## Overview
+## Overview
 
 
 
@@ -14,15 +14,15 @@ The project follows a practical data analyst workflow:
 
 
 
-\*\*Data Preparation → Exploratory Analysis → SQL Analysis → Power BI Dashboard → Business Insights\*\*
+**Data Preparation → Exploratory Analysis → SQL Analysis → Power BI Dashboard → Business Insights**
 
 
 
-\---
+---
 
 
 
-\## Business Objective
+## Business Objective
 
 
 
@@ -34,69 +34,69 @@ The analysis focuses on three areas:
 
 
 
-\- Sales performance and order trends
+- Sales performance and order trends
 
-\- Customer behavior and geographic demand
+- Customer behavior and geographic demand
 
-\- Delivery performance and customer satisfaction
-
-
-
-\---
+- Delivery performance and customer satisfaction
 
 
 
-\## Business Questions
+---
 
 
 
-\### Sales Performance
-
-\- How many orders were placed?
-
-\- How much product revenue was generated?
-
-\- How does revenue change over time?
-
-\- What is the average order value?
-
-\- Which customer states generate the most revenue?
+## Business Questions
 
 
 
-\### Customer Analysis
+### Sales Performance
 
-\- How many unique customers are present?
+- How many orders were placed?
 
-\- What proportion of customers are repeat customers?
+- How much product revenue was generated?
 
-\- Which customers have placed multiple orders?
+- How does revenue change over time?
 
-\- How does customer activity vary geographically?
+- What is the average order value?
 
-
-
-\### Delivery \& Customer Experience
-
-\- What is the average delivery time?
-
-\- What percentage of delivered orders arrived late?
-
-\- How do late and on-time deliveries differ in customer review scores?
-
-\- Is delivery time associated with review scores?
+- Which customer states generate the most revenue?
 
 
 
-\---
+### Customer Analysis
+
+- How many unique customers are present?
+
+- What proportion of customers are repeat customers?
+
+- Which customers have placed multiple orders?
+
+- How does customer activity vary geographically?
 
 
 
-\## Dataset
+### Delivery & Customer Experience
+
+- What is the average delivery time?
+
+- What percentage of delivered orders arrived late?
+
+- How do late and on-time deliveries differ in customer review scores?
+
+- Is delivery time associated with review scores?
 
 
 
-The project uses the \*\*Olist Brazilian E-Commerce Public Dataset\*\*, a large public e-commerce dataset containing approximately 100,000 orders and multiple related tables.
+---
+
+
+
+## Dataset
+
+
+
+The project uses the **Olist Brazilian E-Commerce Public Dataset**, a large public e-commerce dataset containing approximately 100,000 orders and multiple related tables.
 
 
 
@@ -104,13 +104,13 @@ The analysis uses:
 
 
 
-\- Orders
+- Orders
 
-\- Customers
+- Customers
 
-\- Order Items
+- Order Items
 
-\- Order Reviews
+- Order Reviews
 
 
 
@@ -130,7 +130,7 @@ https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
 
 
-\## Tools \& Technologies
+## Tools & Technologies
 
 
 
@@ -154,15 +154,15 @@ https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
 
 
-\---
+---
 
 
 
-\## Project Workflow
+## Project Workflow
 
 
 
-\### 1. Data Preparation — Python
+### 1. Data Preparation — Python
 
 
 
@@ -170,17 +170,17 @@ The raw Olist datasets were loaded into Pandas and inspected for:
 
 
 
-\- Dataset structure
+- Dataset structure
 
-\- Missing values
+- Missing values
 
-\- Duplicate records
+- Duplicate records
 
-\- Date fields
+- Date fields
 
-\- Order statuses
+- Order statuses
 
-\- Relationships between tables
+- Relationships between tables
 
 
 
@@ -188,11 +188,11 @@ Order-level information was then combined with customer, payment, delivery, and 
 
 
 
-\---
+---
 
 
 
-\### 2. Exploratory Analysis — Python
+### 2. Exploratory Analysis — Python
 
 
 
@@ -204,19 +204,19 @@ Key areas explored included:
 
 
 
-\- Order-level revenue
+- Order-level revenue
 
-\- Customer geography
+- Customer geography
 
-\- Payment behavior
+- Payment behavior
 
-\- Repeat customers
+- Repeat customers
 
-\- Delivery time
+- Delivery time
 
-\- Late deliveries
+- Late deliveries
 
-\- Review scores
+- Review scores
 
 
 
@@ -224,11 +224,11 @@ The cleaned and aggregated data was then used to guide the SQL and Power BI anal
 
 
 
-\---
+---
 
 
 
-\### 3. SQL Analysis
+### 3. SQL Analysis
 
 
 
@@ -240,57 +240,57 @@ The SQL analysis was organized into four areas:
 
 
 
-\#### Order Analysis
+#### Order Analysis
 
-\- Order status distribution
+- Order status distribution
 
-\- Total orders
+- Total orders
 
-\- Orders by customer state
+- Orders by customer state
 
-\- Delivered orders by state
-
-
-
-\#### Sales Analysis
-
-\- Total product revenue
-
-\- Monthly revenue
-
-\- Monthly order volume
-
-\- Average order value
-
-\- Revenue by customer state
+- Delivered orders by state
 
 
 
-\#### Customer Analysis
+#### Sales Analysis
 
-\- Repeat customers
+- Total product revenue
 
-\- One-time vs repeat customer classification
+- Monthly revenue
 
+- Monthly order volume
 
+- Average order value
 
-\#### Delivery \& Customer Experience
-
-\- Average delivery time
-
-\- Late delivery rate
-
-\- Late vs on-time review scores
-
-\- Delivery performance distribution
+- Revenue by customer state
 
 
 
-\---
+#### Customer Analysis
+
+- Repeat customers
+
+- One-time vs repeat customer classification
 
 
 
-\## Power BI Dashboard
+#### Delivery & Customer Experience
+
+- Average delivery time
+
+- Late delivery rate
+
+- Late vs on-time review scores
+
+- Delivery performance distribution
+
+
+
+---
+
+
+
+## Power BI Dashboard
 
 
 
@@ -311,29 +311,29 @@ An interactive Power BI dashboard was developed to bring the analysis together.
 
 
 
-\### Key KPIs
+### Key KPIs
 
 
 
-\- Total Orders
+- Total Orders
 
-\- Total Revenue
+- Total Revenue
 
-\- Average Order Value
+- Average Order Value
 
-\- Total Customers
+- Total Customers
 
-\- Average Review Score
+- Average Review Score
 
-\- Average Delivery Days
+- Average Delivery Days
 
-\- Late Orders
+- Late Orders
 
-\- Late Delivery Rate
+- Late Delivery Rate
 
 
 
-\### Dashboard Analysis
+### Dashboard Analysis
 
 
 
@@ -341,23 +341,23 @@ The dashboard includes:
 
 
 
-\- Monthly revenue trends
+- Monthly revenue trends
 
-\- Monthly order trends
+- Monthly order trends
 
-\- Revenue by customer state
+- Revenue by customer state
 
-\- Orders by customer state
+- Orders by customer state
 
-\- On-time vs late delivery distribution
+- On-time vs late delivery distribution
 
-\- Review score comparison by delivery status
+- Review score comparison by delivery status
 
-\- Delivery time by review score
+- Delivery time by review score
 
 
 
-\### Interactive Filters
+### Interactive Filters
 
 
 
@@ -365,65 +365,65 @@ Users can filter the dashboard by:
 
 
 
-\- Customer state
+- Customer state
 
-\- Order status
+- Order status
 
-\- Purchase date
-
-
-
-\---
+- Purchase date
 
 
 
-\## Key Insights
+---
 
 
 
-\### Sales Performance
+## Key Insights
 
 
 
-\- The marketplace recorded 99,441 orders and approximately 13.59 million BRL in product revenue, with an average order value of 136.68 BRL.
-
-\- Monthly revenue peaked in May at approximately 1.50 million BRL.
-
-\- September recorded the lowest monthly revenue at approximately 624.8K BRL.
-
-\- Revenue was geographically concentrated, with São Paulo generating approximately 5.20 million BRL, followed by Rio de Janeiro at 1.82 million BRL and Minas Gerais at 1.59 million BRL.
+### Sales Performance
 
 
 
-\### Customer Behavior
+- The marketplace recorded 99,441 orders and approximately 13.59 million BRL in product revenue, with an average order value of 136.68 BRL.
+
+- Monthly revenue peaked in May at approximately 1.50 million BRL.
+
+- September recorded the lowest monthly revenue at approximately 624.8K BRL.
+
+- Revenue was geographically concentrated, with São Paulo generating approximately 5.20 million BRL, followed by Rio de Janeiro at 1.82 million BRL and Minas Gerais at 1.59 million BRL.
 
 
 
-\- The dataset contains 96,096 unique customers.
-
-\- 93,099 customers were one-time purchasers, while 2,997 customers placed multiple orders.
-
-\- Repeat customers represented approximately 3.12% of the customer base, indicating that most customers in the dataset made a single purchase.
+### Customer Behavior
 
 
 
-\### Delivery \& Customer Experience
+- The dataset contains 96,096 unique customers.
+
+- 93,099 customers were one-time purchasers, while 2,997 customers placed multiple orders.
+
+- Repeat customers represented approximately 3.12% of the customer base, indicating that most customers in the dataset made a single purchase.
 
 
 
-\- Average delivery time was 12.5 days.
-
-\- Approximately 8.1% of delivered orders were classified as late.
-
-\- On-time deliveries had an average review score of 4.29, compared with 2.57 for late deliveries.
-
-\- The 1.72-point difference in average review scores shows a strong association between delivery performance and customer satisfaction, although the analysis does not establish a causal relationship.
-
-\---
+### Delivery & Customer Experience
 
 
 
-\## Project Structure
+- Average delivery time was 12.5 days.
+
+- Approximately 8.1% of delivered orders were classified as late.
+
+- On-time deliveries had an average review score of 4.29, compared with 2.57 for late deliveries.
+
+- The 1.72-point difference in average review scores shows a strong association between delivery performance and customer satisfaction, although the analysis does not establish a causal relationship.
+
+---
+
+
+
+## Project Structure
 
 
 
