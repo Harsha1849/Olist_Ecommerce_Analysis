@@ -298,7 +298,7 @@ An interactive Power BI dashboard was developed to bring the analysis together.
 
 ### Dashboard Report
 
-[View the Power BI Dashboard Report (PDF)](reports/Olist_Ecommerce_Dashboard.pdf)
+[View the Power BI Dashboard Report (PDF)](reports/Olist_Ecommerce_Analysis.pdf)
 
 ### Dashboard Features
 
